@@ -1,8 +1,8 @@
 module.exports = {
-  title: `zoomkoding.com`,
-  description: `줌코딩의 개발일기`,
+  title: `gangs.tech-blog`,
+  description: `강스의 테크블로그`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://www.zoomkoding.com`,
+  siteUrl: `https://www.gangs.tech-blog.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -11,11 +11,16 @@ module.exports = {
   },
   ga: '0', // Google Analytics Tracking ID
   author: {
-    name: `정진혁`,
+    name: `강블리`,
     bio: {
-      role: `개발자`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      role: `프론트엔드 기술 블로그`,
+      description: [
+        '개발하며 끊임없이 배우는',
+        '배움을 공유하는',
+        '공유할 때 즐거움을 느끼는',
+        '즐기면서 개발하는',
+      ],
+      thumbnail: '',
     },
     social: {
       github: ``, // `https://github.com/zoomKoding`,
