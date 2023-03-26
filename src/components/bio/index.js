@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactRotatingText from 'react-rotating-text';
 import IconButtonBar from '../icon-button-bar';
-import Image from '../image';
 import './style.scss';
+import { Player } from '@lottiefiles/react-lottie-player';
+import thumbnailImageJson from '/assets/thumbnail_image.json';
 
 function Bio({ author, language = 'ko' }) {
   if (!author) return null;
@@ -43,7 +44,12 @@ function Bio({ author, language = 'ko' }) {
         </div>
       )}
       <div className="thumbnail-wrapper">
-        <Image style={{ width: 250, height: 250 }} src={bio.thumbnail} alt="thumbnail" />
+        <Player
+          autoplay
+          loop
+          src={thumbnailImageJson}
+          style={{ height: '250px', width: '250px' }}
+        />
       </div>
     </div>
   );
